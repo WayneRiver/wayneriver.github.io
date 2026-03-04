@@ -1,0 +1,89 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+}
+
+/* 卡片容器 */
+.card {
+    max-width: 500px;
+    width: 90%;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* 标题 */
+h1 {
+    color: #1e40af;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+/* 区块 */
+.section {
+    margin: 25px 0;
+}
+
+.section h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #555;
+}
+
+/* 技能标签 */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill {
+    background: #e6f0ff;
+    color: #1e40af;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+/* 链接 */
+.links {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.links a {
+    color: #1e40af;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
